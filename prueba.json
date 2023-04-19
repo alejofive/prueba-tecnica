@@ -1,0 +1,92 @@
+{
+  "pruebas": [
+    {
+      "id": 1,
+      "nombre": "Jumbo Ofertas Enero",
+      "tipo": "Jumbo Mensual",
+      "fecha": "18/01/2022 10:00",
+      "fecha2": "24/01/2022 09:00",
+      "canal": "Ecommerce",
+      "vinculadas": "3",
+      "bandera": "JUMBO - AR",
+      "estado": "Creada",
+      "pais": "",
+      "zona": "",
+      "seccion": "",
+      "locales": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Jumbo Days",
+      "tipo": "FDM",
+      "fecha": "18/01/2022 10:00",
+      "fecha2": "24/01/2022 09:00",
+      "canal": "Ecommerce",
+      "vinculadas": "100",
+      "bandera": "JUMBO - AR",
+      "estado": "Activada",
+      "pais": "",
+      "zona": "",
+      "seccion": "",
+      "locales": ""
+    },
+    {
+      "id": 3,
+      "nombre": "Quesos y Vinos",
+      "tipo": "Local",
+      "fecha": "18/01/2022 10:00",
+      "fecha2": "24/01/2022 09:00",
+      "canal": "Ecommerce",
+      "vinculadas": "100",
+      "bandera": "JUMBO - AR",
+      "estado": "Pendiente Activación",
+      "pais": "",
+      "zona": "",
+      "seccion": "",
+      "locales": ""
+    },
+    {
+      "id": 4,
+      "nombre": "Jumbo Ofetas",
+      "tipo": "Ofertas tráfico",
+      "fecha": "18/01/2022 10:00",
+      "fecha2": "24/01/2022 09:00",
+      "canal": "Ecommerce",
+      "vinculadas": "100",
+      "bandera": "JUMBO - AR",
+      "estado": "Desactivada",
+      "pais": "",
+      "zona": "",
+      "seccion": "",
+      "locales": ""
+    },
+    {
+      "pais": "Argentina",
+      "bandera": "JUMBO - AR",
+      "zona": "JUMBO - AR",
+      "locales": "S504, S502, S504, S504, S505, S506",
+      "seccion": "26 - Botillería / Gaseosas",
+      "estado": "Creada",
+      "nombre": "botas",
+      "tipo": "Jumbo Mensual",
+      "canal": "Ecommerce",
+      "fecha": "2023-06",
+      "fecha2": "2023-03",
+      "id": 5
+    },
+    {
+      "pais": "Argentina",
+      "bandera": "JUMBO - AR",
+      "zona": "JUMBO - AR",
+      "locales": "S504, S502, S504, S504, S505, S506",
+      "seccion": "26 - Botillería / Gaseosas",
+      "estado": "Creada",
+      "nombre": "carros",
+      "tipo": "Jumbo Mensual",
+      "canal": "Ecommerce",
+      "fecha": "2023-06",
+      "fecha2": "2023-11",
+      "id": 6
+    }
+  ]
+}
