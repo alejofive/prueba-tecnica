@@ -1,15 +1,15 @@
 import "./App.css";
-import Campaña from "./pages/Campaña";
+import Campaign from "./pages/Campaign";
+import Create from "./pages/Create";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Crear from "./pages/Crear";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Campaña />} />
-          <Route path="/create" element={<Crear />} />
+          <Route path="/" element={<Campaign />} />
+          <Route path="/create" element={<Create />} />
         </Routes>
       </BrowserRouter>
     </div>

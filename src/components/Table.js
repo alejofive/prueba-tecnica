@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { getPruebas } from "../api/pruebaAPI";
+import { useQuery } from "@tanstack/react-query";
+import { getCampaign } from "../api/CampaignAPI";
 
 const Table = () => {
   const {
     isLoading,
-    data: pruebas,
+    data: campaign,
     isError,
     error,
   } = useQuery({
-    queryKey: ["pruebas"],
-    queryFn: getPruebas,
-    select: (pruebas) => pruebas.sort((a, b) => b.id - a.id),
+    queryKey: ["campaign"],
+    queryFn: getCampaign,
+    select: (campaign) => campaign.sort((a, b) => b.id - a.id),
   });
 
   //filter
@@ -24,9 +24,9 @@ const Table = () => {
   };
 
   const Filter = () => {
-    let results = pruebas.sort((a, b) => (a.id < b.id ? 1 : -1));
-    results = results.filter((pruebas) =>
-      pruebas.nombre.toLowerCase().includes(search.toLowerCase())
+    let results = campaign.sort((a, b) => (a.id < b.id ? 1 : -1));
+    results = results.filter((campaign) =>
+      campaign.nombre.toLowerCase().includes(search.toLowerCase())
     );
 
     return results;

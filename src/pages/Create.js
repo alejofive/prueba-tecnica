@@ -1,5 +1,5 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { createCampaña } from "../api/pruebaAPI";
+import { createCampaign } from "../api/CampaignAPI";
 import { useNavigate } from "react-router-dom";
 
 const Crear = () => {
@@ -7,11 +7,11 @@ const Crear = () => {
   const navigate = useNavigate();
 
   const addCampañaMutate = useMutation({
-    mutationFn: createCampaña,
+    mutationFn: createCampaign,
     onSuccess: () => {
       console.log("task added");
       queryClient.invalidateQueries("tasks");
-      navigate('/')
+      navigate("/");
     },
   });
 
