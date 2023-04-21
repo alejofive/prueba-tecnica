@@ -87,6 +87,34 @@
       "fecha": "2023-06",
       "fecha2": "2023-11",
       "id": 6
+    },
+    {
+      "pais": "Argentina",
+      "bandera": "JUMBO - AR",
+      "zona": "JUMBO - AR",
+      "locales": "S504, S502, S504, S504, S505, S506",
+      "seccion": "26 - Botillería / Gaseosas",
+      "estado": "Creada",
+      "nombre": "alejandro",
+      "tipo": "Jumbo Mensual",
+      "canal": "Ecommerce",
+      "fecha": "2023-07",
+      "fecha2": "2023-06",
+      "id": 7
+    },
+    {
+      "pais": "Argentina",
+      "bandera": "JUMBO - AR",
+      "zona": "JUMBO - AR",
+      "locales": "S504, S502, S504, S504, S505, S506",
+      "seccion": "26 - Botillería / Gaseosas",
+      "estado": "Desactivada",
+      "nombre": "botas",
+      "tipo": "Local",
+      "canal": "Físico",
+      "fecha": "2023-02",
+      "fecha2": "2023-06",
+      "id": 8
     }
   ]
 }

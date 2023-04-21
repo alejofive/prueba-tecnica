@@ -12,3 +12,7 @@ export const getCampaign = async () => {
 export const createCampaign = (campaign) => {
   campaignAPI.post("/pruebas", campaign);
 };
+
+export const deleteCampaign = (id) => {
+  campaignAPI.delete(`pruebas/${id}`);
+};

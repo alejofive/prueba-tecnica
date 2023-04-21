@@ -9,8 +9,8 @@ const Crear = () => {
   const addCampañaMutate = useMutation({
     mutationFn: createCampaign,
     onSuccess: () => {
-      console.log("task added");
-      queryClient.invalidateQueries("tasks");
+      console.log("campaign added");
+      queryClient.invalidateQueries("campaign");
       navigate("/");
     },
   });

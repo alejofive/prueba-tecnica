@@ -10,6 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Campaign />} />
           <Route path="/create" element={<Create />} />
+          <Route path="/edit/:id" element={<Create />} />
         </Routes>
       </BrowserRouter>
     </div>
